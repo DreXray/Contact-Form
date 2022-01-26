@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="results.html" method="GET" enctype="multipart/form-data">
+    <h1 id="dd">Contact Form
+      <span>Please fill all the texts in the fields.</span>
+    </h1>
+    <div class="grid">
+
+      <span class="label">Your Name :</span>
+      <input id="name" type="text" name="name" placeholder="Your Full Name" />
+        
+      <span class="label">Your Email :</span>
+      <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+
+      <span class="label">Contact No. :</span>
+      <input id="Contact Number" type="number" name="number" placeholder="Your Contact Number" />
+
+      <span class="label">Birthdate :</span>
+      <input type="date" name="date" id="date" min="2019-06-10">
+
+      <div class="Gender">Gender :</div>
+      <div>
+        <input type="radio" name="gender" id="male" value="male"><span>Male</span>
+        <input type="radio" name="gender" id="female" value="female"><span>Female</span>
+      </div>
+
+      <div class="how">How did you hear about us :</div>
+      <select id="selection" name="selection">
+        <option value=""></option>
+        <option value="Our Website">Our Website</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Others">Others</option>
+        <option value="Friends/Family/Relatives">Friends/Family/Relatives</option>
+        <option value="Google">Google</option>
+      </select>
+
+      <div class="message">Message :</div>
+      <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+
+    </div>
+    </div>
+    </div>
+    <label>
+        <span>&nbsp;</span> 
+       <input type="submit" class="button1" value="Clear" /> 
+        <input type="submit" class="button2" value="Submit" /> 
+    </label>  
+
+    </form>
+      <!-- <script src="scripts.js"></script>-->
+     
+    </body>
+   </html>
